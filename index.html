@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Two File Registration Form</title>
+  <script src="script-style.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Registeration Form</h2>
+    <form id="registrationForm">
+      <input type="text" id="fullname" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required minlength="6"/>
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+      <button type="submit">Register</button>
+      <p class="message" id="formMessage"></p>
+    </form>
+  </div>
+</body>
+</html>
